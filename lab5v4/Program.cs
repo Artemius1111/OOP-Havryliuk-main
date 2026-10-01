@@ -29,7 +29,7 @@ namespace Lab5Variant4
 
         public override string PerformAction()
         {
-            return $"[Принтер {Brand}] Друкує документи зі швидкістю {PagesPerMinute} стор/хв.";
+            return $"Принтер {Brand} Друкує документи зі швидкістю {PagesPerMinute} стор/хв.";
         }
     }
 
@@ -44,7 +44,7 @@ namespace Lab5Variant4
 
         public override string PerformAction()
         {
-            return $"[Сканер {Brand}] Сканує документ із роздільною здатністю {DPI} DPI.";
+            return $"Сканер {Brand} Сканує документ із роздільною здатністю {DPI} DPI.";
         }
     }
 
@@ -59,7 +59,7 @@ namespace Lab5Variant4
 
         public override string PerformAction()
         {
-            return $"[Монітор {Brand}] Відображає зображення на екрані {ScreenSize}\" дюймів.";
+            return $"Монітор {Brand} Відображає зображення на екрані {ScreenSize}\" дюймів.";
         }
     }
 
