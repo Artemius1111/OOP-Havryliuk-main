@@ -80,7 +80,7 @@ namespace IndependentWork9
             var maxNumber = CollectionUtils.MaxBy(numbers, x => x);
             var evenNumbers = CollectionUtils.Filter(numbers, x => x % 2 == 0);
             
-            Console.WriteLine("--- Numbers Demo ---");
+            Console.WriteLine("Numbers Demo");
             Console.WriteLine($"Doubled: {string.Join(", ", doubled)}");
             Console.WriteLine($"Max: {maxNumber}");
             Console.Write("Even numbers: ");
@@ -92,7 +92,7 @@ namespace IndependentWork9
             var longestWord = CollectionUtils.MaxBy(words, w => w.Length);
             var longWords = CollectionUtils.Filter(words, w => w.Length > 5);
 
-            Console.WriteLine("--- Words Demo ---");
+            Console.WriteLine("Words Demo");
             Console.WriteLine($"Lengths: {string.Join(", ", wordLengths)}");
             Console.WriteLine($"Longest word: {longestWord}");
             Console.Write("Words > 5 chars: ");
@@ -111,7 +111,7 @@ namespace IndependentWork9
             var mostExpensive = CollectionUtils.MaxBy(products, p => p.Price);
             var expensiveProducts = CollectionUtils.Filter(products, p => p.Price > 1000m);
 
-            Console.WriteLine("--- Products Demo ---");
+            Console.WriteLine("Products Demo");
             Console.WriteLine($"Names: {string.Join(", ", productNames)}");
             Console.WriteLine($"Most expensive: {mostExpensive.Name} ({mostExpensive.Price} UAH)");
             Console.WriteLine("Products > 1000 UAH:");
