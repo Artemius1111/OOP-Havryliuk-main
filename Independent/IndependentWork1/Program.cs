@@ -4,7 +4,6 @@ namespace IndependentWork1
 {
     public class Playlist
     {
-        // Приватні поля (мінімум 2)
         private string _title;
         private int _trackCount;
         private double _totalDurationMinutes;
