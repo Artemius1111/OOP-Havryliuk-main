@@ -1,8 +1,5 @@
 namespace lab14v4;
 
-/// <summary>
-/// Власний клас для демонстрації роботи CollectionHelper&lt;T&gt;.
-/// </summary>
 public class Product
 {
     public string Name { get; set; }
