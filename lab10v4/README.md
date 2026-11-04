@@ -15,6 +15,8 @@
 
 ## Результат виконання
 
+<img width="741" height="864" alt="{9709AAD2-EE29-44A7-A929-A21E1AD0A168}" src="https://github.com/user-attachments/assets/53ef7bd3-c805-4cf9-8401-fdd39e7f12d0" />
+<img width="787" height="858" alt="{EBAD4B55-6DBC-4CF4-AF26-DB6A1E5DE0C3}" src="https://github.com/user-attachments/assets/b5b99a60-87da-44c4-9eb3-82f6cb22459e" />
 
 ## Висновок
 
