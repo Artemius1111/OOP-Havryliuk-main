@@ -15,6 +15,8 @@
 
 ## Результат виконання
 
+<img width="780" height="830" alt="{52B68C1D-BCA1-461D-8A72-CF2A15E6E2CA}" src="https://github.com/user-attachments/assets/ddb9c670-4c93-456b-8adc-f1f45ed6be92" />
+<img width="1043" height="562" alt="{1E7FC22E-823B-490F-A616-76051340C624}" src="https://github.com/user-attachments/assets/443a6b15-d1a3-4a1d-bb40-d4960dc78d72" />
 
 ## Відповіді на контрольні питання
 
