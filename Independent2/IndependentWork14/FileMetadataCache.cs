@@ -1,0 +1,33 @@
+namespace IndependentWork14;
+
+public class FileMetadataCache
+{
+    private readonly Dictionary<string, FileMetadata> _cache = new(StringComparer.OrdinalIgnoreCase);
+
+    public int Count => _cache.Count;
+
+    public bool Add(FileMetadata metadata)
+    {
+        return _cache.TryAdd(metadata.FileName, metadata);
+    }
+
+    public void AddOrUpdate(FileMetadata metadata)
+    {
+        _cache[metadata.FileName] = metadata;
+    }
+
+    public FileMetadata? Get(string fileName)
+    {
+        return _cache.TryGetValue(fileName, out FileMetadata? metadata) ? metadata : null;
+    }
+
+    public bool Remove(string fileName)
+    {
+        return _cache.Remove(fileName);
+    }
+
+    public bool Contains(string fileName)
+    {
+        return _cache.ContainsKey(fileName);
+    }
+}
